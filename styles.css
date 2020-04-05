@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 70px;
+    color: #4CAF50;
+  }
+  p {
+
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 80px;
+    font-size: 18px
+  
+  }
+  
+  
+  .nav:hover {
+      width: 90px; 
+      height: 70px; 
+      transition: 0s;
+      background: rgb(14, 168, 47); 
+      font-size: 23px
+    }
+    
+    img.bild3
+    {
+        float: left;
+        margin-right:15px;
+    }
+    img.bild1
+    {
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    img.bild2
+    {
+        float: left;
+        margin-right:15px;
+    }
