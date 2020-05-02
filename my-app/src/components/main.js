@@ -7,8 +7,8 @@ import OmOss from './OmOss';
 import Hitta_parkering from './Hitta_Parkering';
 import Starta_parkering from './Starta_parkering';
 import Förlänga_parkering from './Förlänga_parkering';
-import Parkera_flera_bilar from './Parkera_flera_bilar';
-
+import undvika_böter from './undvika_böter';
+import jobba_hos_oss from './jobba_hos_oss';
 
 
 
@@ -23,8 +23,9 @@ const Main = () => (
     <Route path="/Hitta_parkering" component={Hitta_parkering} />
     <Route path="/Starta_parkering" component={Starta_parkering} />
     <Route path="/Förlänga_parkering" component={Förlänga_parkering} />
-    <Route path="/Parkera_flera_bilar" component={Parkera_flera_bilar} />
-
+    <Route path="/undvika_böter" component={undvika_böter} />
+    <Route path="/jobba_hos_oss" component={jobba_hos_oss} />
+     <Route path="/" component={Hem}/>
     
 
 

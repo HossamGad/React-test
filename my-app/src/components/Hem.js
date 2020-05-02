@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import logo from './mobilapp.png';
+import logo from '../Image/mobilapp.png';
 
 
 
